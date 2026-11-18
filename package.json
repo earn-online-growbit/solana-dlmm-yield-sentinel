@@ -1,0 +1,21 @@
+{
+  "name": "solana-dlmm-yield-sentinel",
+  "version": "1.0.0",
+  "description": "Autonomous Meteora DLMM & Orca Whirlpools Dynamic Yield Provisioning Sentinel on Solana",
+  "main": "dist/agent.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agent.js",
+    "simulate": "node scripts/simulate_devnet.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.91.0",
+    "@coral-xyz/anchor": "^0.29.0",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  }
+}
